@@ -1,1 +1,15 @@
-test
+name: trigger-tf
+
+on:
+  push:
+    branches:
+      - main
+
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps: 
+    - name: test
+      run: |
+        echo "this is test"
