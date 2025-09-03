@@ -1,2 +1,1 @@
-# ec2
-# ec2
+Create the s3 backend resources first
